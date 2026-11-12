@@ -1,0 +1,19 @@
+def main():
+    print("CALCULO DE CIRCUNFERENCIA")
+
+    pi = 3.1416
+
+    radio = float(input("Ingrese el radio: "))
+
+    if radio > 0:
+        longitud = 2 * pi * radio
+        area = pi * radio ** 2
+
+        print("La longitud de la circunferencia es:", longitud)
+        print("El area del circulo es:", area)
+    else:
+        print("Error: el radio debe ser mayor que cero.")
+
+
+if __name__ == "__main__":
+    main()
